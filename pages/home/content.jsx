@@ -16,7 +16,7 @@ const Content = () => {
       <div className={styles.template}>
         {/* COL 1 */}
         <div className={styles.templateItem1}>
-          <p>
+          <p className="font-montserrat">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eum
             nostrum iusto eveniet laborum vitae praesentium ipsa, aliquid quas
             libero ipsum eius repellendus quaerat, est debitis mollitia fugiat,
