@@ -1,5 +1,5 @@
 {
-  "name": "portifolio",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@material-tailwind/react": "^1.2.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
+    "@netlify/plugin-nextjs": "^4.27.3",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-devtools": "^4.26.0",
-    "react-dom": "18.2.0"
+    "react-animation-on-scroll": "^5.1.0",
+    "react-dom": "18.2.0",
+    "react-tsparticles": "^2.5.3",
+    "tw-elements": "^1.0.0-alpha12",
+    "vue-carousel": "^0.18.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.12",
+    "autoprefixer": "^10.4.11",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "postcss": "^8.4.16",
