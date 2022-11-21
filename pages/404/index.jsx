@@ -1,4 +1,3 @@
-import HomePage from "@pages/home/index";
 import Link from "next/link";
 
 let styles = {
