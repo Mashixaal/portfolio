@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { ParticleTest } from "@src/components/particles.animate";
 
 let styles = {
-  main: "h-screen w-full flex flex-col justify-center items-center bg-[#1A2238]",
+  main: "h-screen w-full flex flex-col justify-center items-center ",
   mainh1: "text-9xl font-extrabold text-white tracking-widest",
   maindiv: "bg-[#6E0018] px-2 text-sm rounded rotate-12 absolute",
   mainSpan1: "mt-5",
@@ -25,7 +26,9 @@ const Error404 = () => {
           </span>
         </button>
       </span>
+      <ParticleTest />
     </main>
+    
   );
 };
 

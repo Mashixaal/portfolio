@@ -1,7 +1,6 @@
-import HomePage from "@pages/home/index";
 import Head from "next/head";
 import Header from "@src/components/header/index";
-import Menu from "@src/components/menu/index";
+// import Menu from "@src/components/menu/index";
 import Introduction from "@src/components/introduction/index";
 import Footer from "@src/components/footer/index";
 
@@ -11,20 +10,22 @@ let styles = {
   footer: "",
 };
 
-const HomePage = () => {
+const Home = () => {
   return (
     <>
       <Head>
         <title>Safwan Abubakar</title>
       </Head>
 
+
+
       <div className={styles.head}>
-        <div className="hidden lg:flex">
+        <div className=" lg:flex">
           <Header />
         </div>
-        <div className="flex lg:hidden">
+        {/* <div className="flex lg:hidden">
           <Menu />
-        </div>
+        </div> */}
       </div>
       <div className={styles.body}>
         <Introduction />
@@ -36,4 +37,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;

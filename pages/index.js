@@ -1,11 +1,14 @@
-import HomePage from "@pages/home/";
+import Home from "@pages/home/";
+import { ParticleTest } from "@src/components/particles.animate";
 
-const Home = () => {
+const App = () => {
   return (
     <>
-      <HomePage />
+      <Home />
+      <ParticleTest />
+
     </>
   );
 };
 
-export default Home;
+export default App;

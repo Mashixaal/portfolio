@@ -1,11 +1,10 @@
 import Image from "next/image";
 import profil from "@src/assets/img/profilIMG/profil.png";
-import ViewBtn from "@src/components/viewbtn/index";
 // import ParticlesTest from "@src/components/particles.animate/index";
 
 
 let styles = {
-  section: "flex flex-col lg:grid lg:grid-cols-2 min-h-screen bg-black",
+  section: "flex flex-col m-8 lg:grid lg:grid-cols-2 min-h-screen ",
   div1: "flex justify-center mt-20 relative overflow-hidden bg-no-repeat bg-cover",
   Image:
   "rounded-3xl border-[#14ffec] max-w-xs rounded-full hover:scale-110 transition duration-300 ease-in-out",
@@ -53,9 +52,7 @@ const Introduction = () => {
               janvier jusqu&apos;à 3 mars 2023.
               </p>
               </div>
-              <div className={styles.div5}>
-              <ViewBtn />
-              </div>
+             
             </div>
       </section>
     </>

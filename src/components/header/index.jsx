@@ -1,21 +1,28 @@
 import Link from "next/link";
-import { LogoSafwan } from "@src/components/name/logo-safwan";
-import Image from "next/image"
+import logosafwan from "@src/assets/img/logo/logo-safwan.png";
+import Image from "next/image";
 
 let styles = {
-  header: "lg:flex flex lg:py-0 lg:w-full lg:bg-[#00b3a4] ",
-  name: "flex justify-center w-full py-8 lg:flex lg:justify-center lg:w-full",
+  header: "lg:flex flex lg:py-0 lg:w-full lg:bg-boxing ",
   nav: "flex justify-center w-full justify-around text-white px-10 py-6 opacity-90 lg:flex lg:justify-center lg:text-2xl lg:w-full",
-  Accueil: "lg:bg-transparent lg:text-white lg:text-bold lg:p-0",
-  Projets: "lg:mx-16 lg:text-white",
-  Skills: "lg:text-white",
-  Contact: "lg:mx-16 lg:text-bold lg:text-white",
+  Accueil: "lg:bg-transparent m-1 lg:text-white lg:text-bold lg:p-0",
+  Projets: "lg:mx-16 m-1 lg:text-white",
+  Contact: "lg:text-bold m-1 lg:text-white",
+  image: "h-auto w-40 flex lg:flex lg:ml-5",
 };
 
 const Header = () => {
   return (
     <header className={styles.header}>
-      <Image src={LogoSafwan} />
+      <div className={styles.image}>
+        <Image
+          src={logosafwan}
+          alt="logo"
+          title="Safwan"
+          height={100}
+          width={100}
+        />
+      </div>
       <div className={styles.name}></div>
       <nav className={styles.nav}>
         <Link href="/accueil">
@@ -23,9 +30,6 @@ const Header = () => {
         </Link>
         <Link href="/projects">
           <button className={styles.Projets}>Projets</button>
-        </Link>
-        <Link href="/skills">
-          <button className={styles.Skills}>Skills</button>
         </Link>
         <Link href="/contact">
           <button className={styles.Contact}>Contact</button>
