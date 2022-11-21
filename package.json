@@ -22,6 +22,7 @@
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "18.2.0",
     "react-tsparticles": "^2.5.3",
+    "tsparticles": "^2.5.3",
     "tw-elements": "^1.0.0-alpha12",
     "vue-carousel": "^0.18.0"
   },

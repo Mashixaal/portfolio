@@ -7,7 +7,15 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      ...colors,
+      backgroundImage: {
+        'boxing': "url('/blue.png')",
+        'night': "url('/night')",
+        
+      },
+      colors: {
+        "costum-hex": "#14ffec",
+      },
+
     },
   },
   plugins: [],

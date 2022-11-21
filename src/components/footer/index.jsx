@@ -1,7 +1,7 @@
 import Links from "@src/components/links";
 
 let styles = {
-  footer: "fontNunito text-white opacity-90",
+  footer: "fontNunito text-white opacity-90 bg-boxing",
   div: "px-16 py-0 lg:grid lg:grid-cols-2",
   div1: "lg:py-4 lg:pl-72",
   div2: "pt-6 lg:pt-12",

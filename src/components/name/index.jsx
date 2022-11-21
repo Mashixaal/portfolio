@@ -1,11 +1,23 @@
+
 let styles = {
-  name: "text-white text-xl opacity-60 lg:flex lg:justify-center lg:text-3xl",
+  // name: "text-[white] font-bold text-xl opacity-60 lg:flex lg:justify-center lg:text-3xl",
 };
 
 const Name = () => {
   return (
     <>
-      <h1 className={styles.name}>Safwan Abubakar</h1>
+     <div>
+          <div className={styles}>
+            <img
+              
+              alt="logo"
+              title="Safwan"
+              height={500}
+              width={450}
+              className={styles.Image}
+            />
+          </div>
+        </div>
     </>
   );
 };

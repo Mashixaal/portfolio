@@ -6,7 +6,6 @@ import Mazebank from "@src/assets/img/viewprojectsIMG/mazebank.png";
 import AgenceEclair from "@src/assets/img/viewprojectsIMG/agenceeclair.png";
 import Portfolio from "@src/assets/img/viewprojectsIMG/portfolio.png";
 import MetaCode from "@src/assets/img/viewprojectsIMG/metacode.png";
-import tsParticles from "@src/components/particles.animate";
 
 let styles = {};
 

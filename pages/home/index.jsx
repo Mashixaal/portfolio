@@ -5,9 +5,9 @@ import Introduction from "@src/components/introduction/index";
 import Footer from "@src/components/footer/index";
 
 let styles = {
-  head: "bg-[url('../../src/assets/img/header/header-image.png')]",
-  body: "bg-[url('../../src/assets/img/bgimage/energy.jpg')]",
-  footer: "bg-[url('../../src/assets/img/header/header-image.png')]",
+  head: "",
+  body: "",
+  footer: "",
 };
 
 const HomePage = () => {
@@ -16,6 +16,7 @@ const HomePage = () => {
       <Head>
         <title>Safwan Abubakar</title>
       </Head>
+
       <div className={styles.head}>
         <div className="hidden lg:flex">
           <Header />
