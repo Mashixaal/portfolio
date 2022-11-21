@@ -1,3 +1,4 @@
+import HomePage from "@pages/home/index";
 import Head from "next/head";
 import Header from "@src/components/header/index";
 import Menu from "@src/components/menu/index";
